@@ -1,0 +1,3 @@
+module.exports=[69768,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(711670);a.n(d("[project]/Documents/GitHub/FinanceFull/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},427213,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(711670);a.n(d("[project]/Documents/GitHub/FinanceFull/node_modules/next/dist/client/components/builtin/global-error.js"))},444915,a=>{"use strict";a.i(69768);var b=a.i(427213);a.n(b)}];
+
+//# sourceMappingURL=9f135_next_dist_client_components_builtin_global-error_158dd0f3.js.map

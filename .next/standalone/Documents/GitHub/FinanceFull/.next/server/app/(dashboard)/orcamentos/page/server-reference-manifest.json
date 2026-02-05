@@ -1,0 +1,80 @@
+{
+  "node": {
+    "400f196431bf44b7a7ecc7f076ea8af014ead3e724": {
+      "workers": {
+        "app/(dashboard)/orcamentos/page": {
+          "moduleId": 994314,
+          "async": true,
+          "exportedName": "markAllUpdatesAsRead",
+          "filename": "Documents/GitHub/FinanceFull/lib/changelog/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/orcamentos/page": "action-browser"
+      },
+      "exportedName": "markAllUpdatesAsRead",
+      "filename": "Documents/GitHub/FinanceFull/lib/changelog/actions.ts"
+    },
+    "6090abf6ce2025521a9864fe67dd2e42c2dd9767f4": {
+      "workers": {
+        "app/(dashboard)/orcamentos/page": {
+          "moduleId": 994314,
+          "async": true,
+          "exportedName": "fetchDashboardNotifications",
+          "filename": "Documents/GitHub/FinanceFull/lib/dashboard/notifications.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/orcamentos/page": "rsc"
+      },
+      "exportedName": "fetchDashboardNotifications",
+      "filename": "Documents/GitHub/FinanceFull/lib/dashboard/notifications.ts"
+    },
+    "40a19ac9550c0edf9599b6d2bad2812fb9b21ac3ba": {
+      "workers": {
+        "app/(dashboard)/orcamentos/page": {
+          "moduleId": 994314,
+          "async": true,
+          "exportedName": "deleteBudgetAction",
+          "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/orcamentos/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/orcamentos/page": "action-browser"
+      },
+      "exportedName": "deleteBudgetAction",
+      "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/orcamentos/actions.ts"
+    },
+    "40c9a9d4dcc6f4e39d91d2e1242452f9f557a32c50": {
+      "workers": {
+        "app/(dashboard)/orcamentos/page": {
+          "moduleId": 994314,
+          "async": true,
+          "exportedName": "createBudgetAction",
+          "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/orcamentos/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/orcamentos/page": "action-browser"
+      },
+      "exportedName": "createBudgetAction",
+      "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/orcamentos/actions.ts"
+    },
+    "40ef379ebe7a6821ae1fa428a624d5ad8979f10dc4": {
+      "workers": {
+        "app/(dashboard)/orcamentos/page": {
+          "moduleId": 994314,
+          "async": true,
+          "exportedName": "updateBudgetAction",
+          "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/orcamentos/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/orcamentos/page": "action-browser"
+      },
+      "exportedName": "updateBudgetAction",
+      "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/orcamentos/actions.ts"
+    }
+  },
+  "edge": {}
+}

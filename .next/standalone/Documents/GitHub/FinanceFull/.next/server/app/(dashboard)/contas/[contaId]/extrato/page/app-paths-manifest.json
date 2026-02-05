@@ -1,0 +1,3 @@
+{
+  "/(dashboard)/contas/[contaId]/extrato/page": "app/(dashboard)/contas/[contaId]/extrato/page.js"
+}

@@ -1,0 +1,35 @@
+{
+  "node": {
+    "400f196431bf44b7a7ecc7f076ea8af014ead3e724": {
+      "workers": {
+        "app/(dashboard)/categorias/historico/page": {
+          "moduleId": 857801,
+          "async": true,
+          "exportedName": "markAllUpdatesAsRead",
+          "filename": "Documents/GitHub/FinanceFull/lib/changelog/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/categorias/historico/page": "action-browser"
+      },
+      "exportedName": "markAllUpdatesAsRead",
+      "filename": "Documents/GitHub/FinanceFull/lib/changelog/actions.ts"
+    },
+    "6090abf6ce2025521a9864fe67dd2e42c2dd9767f4": {
+      "workers": {
+        "app/(dashboard)/categorias/historico/page": {
+          "moduleId": 857801,
+          "async": true,
+          "exportedName": "fetchDashboardNotifications",
+          "filename": "Documents/GitHub/FinanceFull/lib/dashboard/notifications.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/categorias/historico/page": "rsc"
+      },
+      "exportedName": "fetchDashboardNotifications",
+      "filename": "Documents/GitHub/FinanceFull/lib/dashboard/notifications.ts"
+    }
+  },
+  "edge": {}
+}

@@ -1,17 +1,17 @@
 module.exports = {
   apps: [
     {
-      name: "financefull-dev",
-      cwd: "/FinanceFull",
+      name: "gestao-atletas-front",
+      cwd: "/root/Gestao-Atletas-front",
       script: "node_modules/next/dist/bin/next",
-      args: "dev -p 3000",
-      exec_mode: "fork",
+      args: "start -p 8080",
       instances: 1,
-      watch: true,
-      ignore_watch: ["node_modules", ".next", ".git"],
+      exec_mode: "fork",
+      watch: false,
       env: {
-        NODE_ENV: "development"
+        NODE_ENV: "production",
+        NODE_OPTIONS: "--max-old-space-size=512"
       }
     }
   ]
-}
+};

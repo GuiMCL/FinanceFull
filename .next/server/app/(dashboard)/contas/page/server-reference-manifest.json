@@ -1,0 +1,95 @@
+{
+  "node": {
+    "400f196431bf44b7a7ecc7f076ea8af014ead3e724": {
+      "workers": {
+        "app/(dashboard)/contas/page": {
+          "moduleId": 287772,
+          "async": true,
+          "exportedName": "markAllUpdatesAsRead",
+          "filename": "Documents/GitHub/FinanceFull/lib/changelog/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/contas/page": "action-browser"
+      },
+      "exportedName": "markAllUpdatesAsRead",
+      "filename": "Documents/GitHub/FinanceFull/lib/changelog/actions.ts"
+    },
+    "6090abf6ce2025521a9864fe67dd2e42c2dd9767f4": {
+      "workers": {
+        "app/(dashboard)/contas/page": {
+          "moduleId": 287772,
+          "async": true,
+          "exportedName": "fetchDashboardNotifications",
+          "filename": "Documents/GitHub/FinanceFull/lib/dashboard/notifications.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/contas/page": "rsc"
+      },
+      "exportedName": "fetchDashboardNotifications",
+      "filename": "Documents/GitHub/FinanceFull/lib/dashboard/notifications.ts"
+    },
+    "40d8564c11d4a92e04f9dadf80f97b38be6f922b1e": {
+      "workers": {
+        "app/(dashboard)/contas/page": {
+          "moduleId": 287772,
+          "async": true,
+          "exportedName": "deleteAccountAction",
+          "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/contas/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/contas/page": "action-browser"
+      },
+      "exportedName": "deleteAccountAction",
+      "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/contas/actions.ts"
+    },
+    "40cae5f5251dfebed7ad55163bde4f005da081f9ae": {
+      "workers": {
+        "app/(dashboard)/contas/page": {
+          "moduleId": 287772,
+          "async": true,
+          "exportedName": "createAccountAction",
+          "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/contas/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/contas/page": "action-browser"
+      },
+      "exportedName": "createAccountAction",
+      "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/contas/actions.ts"
+    },
+    "40e448aad3df9f3fa593aa55b6ce7abe87d88cb9eb": {
+      "workers": {
+        "app/(dashboard)/contas/page": {
+          "moduleId": 287772,
+          "async": true,
+          "exportedName": "updateAccountAction",
+          "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/contas/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/contas/page": "action-browser"
+      },
+      "exportedName": "updateAccountAction",
+      "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/contas/actions.ts"
+    },
+    "406d6de6debf14ac4a6dd5cde7d57ca5904aaa0c20": {
+      "workers": {
+        "app/(dashboard)/contas/page": {
+          "moduleId": 287772,
+          "async": true,
+          "exportedName": "transferBetweenAccountsAction",
+          "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/contas/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/contas/page": "action-browser"
+      },
+      "exportedName": "transferBetweenAccountsAction",
+      "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/contas/actions.ts"
+    }
+  },
+  "edge": {}
+}

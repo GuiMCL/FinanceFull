@@ -1,0 +1,95 @@
+{
+  "node": {
+    "400f196431bf44b7a7ecc7f076ea8af014ead3e724": {
+      "workers": {
+        "app/(dashboard)/insights/page": {
+          "moduleId": 315811,
+          "async": true,
+          "exportedName": "markAllUpdatesAsRead",
+          "filename": "Documents/GitHub/FinanceFull/lib/changelog/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/insights/page": "action-browser"
+      },
+      "exportedName": "markAllUpdatesAsRead",
+      "filename": "Documents/GitHub/FinanceFull/lib/changelog/actions.ts"
+    },
+    "6090abf6ce2025521a9864fe67dd2e42c2dd9767f4": {
+      "workers": {
+        "app/(dashboard)/insights/page": {
+          "moduleId": 315811,
+          "async": true,
+          "exportedName": "fetchDashboardNotifications",
+          "filename": "Documents/GitHub/FinanceFull/lib/dashboard/notifications.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/insights/page": "rsc"
+      },
+      "exportedName": "fetchDashboardNotifications",
+      "filename": "Documents/GitHub/FinanceFull/lib/dashboard/notifications.ts"
+    },
+    "407152a160326519839050cd921d84f0fb57a9a75b": {
+      "workers": {
+        "app/(dashboard)/insights/page": {
+          "moduleId": 315811,
+          "async": true,
+          "exportedName": "deleteSavedInsightsAction",
+          "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/insights/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/insights/page": "action-browser"
+      },
+      "exportedName": "deleteSavedInsightsAction",
+      "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/insights/actions.ts"
+    },
+    "6039e1184b4585f52cba63943c28cf743065cc4823": {
+      "workers": {
+        "app/(dashboard)/insights/page": {
+          "moduleId": 315811,
+          "async": true,
+          "exportedName": "generateInsightsAction",
+          "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/insights/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/insights/page": "action-browser"
+      },
+      "exportedName": "generateInsightsAction",
+      "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/insights/actions.ts"
+    },
+    "40990f60fabb870bd4c1c7385e91322a98ea8fda28": {
+      "workers": {
+        "app/(dashboard)/insights/page": {
+          "moduleId": 315811,
+          "async": true,
+          "exportedName": "loadSavedInsightsAction",
+          "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/insights/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/insights/page": "action-browser"
+      },
+      "exportedName": "loadSavedInsightsAction",
+      "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/insights/actions.ts"
+    },
+    "70ae6241080da12695c5cb8a27625869da36eafc0f": {
+      "workers": {
+        "app/(dashboard)/insights/page": {
+          "moduleId": 315811,
+          "async": true,
+          "exportedName": "saveInsightsAction",
+          "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/insights/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/insights/page": "action-browser"
+      },
+      "exportedName": "saveInsightsAction",
+      "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/insights/actions.ts"
+    }
+  },
+  "edge": {}
+}

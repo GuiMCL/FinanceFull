@@ -1,0 +1,13 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_global-error/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__2b1ba0d1._.js")
+R.c("server/chunks/ssr/Documents_GitHub_FinanceFull_ee862264._.js")
+R.c("server/chunks/ssr/9f135_next_dist_4b4134dc._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__415fee1e._.js")
+R.c("server/chunks/ssr/9f135_next_dist_9b7141d2._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__4ea48f23._.js")
+R.c("server/chunks/ssr/9f135_next_dist_f8778574._.js")
+R.c("server/chunks/ssr/9f135_c566037b._.js")
+R.c("server/chunks/ssr/Documents_GitHub_FinanceFull_app_3c66dad3._.js")
+R.c("server/chunks/ssr/7889e_FinanceFull__next-internal_server_app__global-error_page_actions_a4f83b6a.js")
+R.m(536820)
+module.exports=R.m(536820).exports

@@ -13,16 +13,10 @@
 !.yarn/versions
 
 # === Next.js ===
-/.next/
-/out/
-next-env.d.ts
-.turbo
+
 
 # === Build ===
-/build
-/dist
-*.tsbuildinfo
-.pnpm-store
+
 
 # === Testing ===
 /coverage
@@ -30,8 +24,7 @@ next-env.d.ts
 
 # === Environment Variables ===
 # Ignora todos os .env exceto .env.example
-.env*
-!.env.example
+
 
 # === Logs ===
 npm-debug.log*

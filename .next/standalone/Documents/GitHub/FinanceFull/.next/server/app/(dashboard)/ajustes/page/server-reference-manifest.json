@@ -1,0 +1,95 @@
+{
+  "node": {
+    "400f196431bf44b7a7ecc7f076ea8af014ead3e724": {
+      "workers": {
+        "app/(dashboard)/ajustes/page": {
+          "moduleId": 624345,
+          "async": true,
+          "exportedName": "markAllUpdatesAsRead",
+          "filename": "Documents/GitHub/FinanceFull/lib/changelog/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/ajustes/page": "action-browser"
+      },
+      "exportedName": "markAllUpdatesAsRead",
+      "filename": "Documents/GitHub/FinanceFull/lib/changelog/actions.ts"
+    },
+    "6090abf6ce2025521a9864fe67dd2e42c2dd9767f4": {
+      "workers": {
+        "app/(dashboard)/ajustes/page": {
+          "moduleId": 624345,
+          "async": true,
+          "exportedName": "fetchDashboardNotifications",
+          "filename": "Documents/GitHub/FinanceFull/lib/dashboard/notifications.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/ajustes/page": "rsc"
+      },
+      "exportedName": "fetchDashboardNotifications",
+      "filename": "Documents/GitHub/FinanceFull/lib/dashboard/notifications.ts"
+    },
+    "4072605e736e07088258cbd58ce1505b068d9c8022": {
+      "workers": {
+        "app/(dashboard)/ajustes/page": {
+          "moduleId": 624345,
+          "async": true,
+          "exportedName": "deleteAccountAction",
+          "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/ajustes/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/ajustes/page": "action-browser"
+      },
+      "exportedName": "deleteAccountAction",
+      "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/ajustes/actions.ts"
+    },
+    "4069573f4d211b1ee3ed3a00794d97d4966a447d06": {
+      "workers": {
+        "app/(dashboard)/ajustes/page": {
+          "moduleId": 624345,
+          "async": true,
+          "exportedName": "updateEmailAction",
+          "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/ajustes/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/ajustes/page": "action-browser"
+      },
+      "exportedName": "updateEmailAction",
+      "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/ajustes/actions.ts"
+    },
+    "40fec915cee10707abff096c95eea1346861d8c330": {
+      "workers": {
+        "app/(dashboard)/ajustes/page": {
+          "moduleId": 624345,
+          "async": true,
+          "exportedName": "updateNameAction",
+          "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/ajustes/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/ajustes/page": "action-browser"
+      },
+      "exportedName": "updateNameAction",
+      "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/ajustes/actions.ts"
+    },
+    "40980e8a8bc93b56ec637d47d8fa8403bffce161c4": {
+      "workers": {
+        "app/(dashboard)/ajustes/page": {
+          "moduleId": 624345,
+          "async": true,
+          "exportedName": "updatePasswordAction",
+          "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/ajustes/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/ajustes/page": "action-browser"
+      },
+      "exportedName": "updatePasswordAction",
+      "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/ajustes/actions.ts"
+    }
+  },
+  "edge": {}
+}

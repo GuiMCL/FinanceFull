@@ -1,0 +1,80 @@
+{
+  "node": {
+    "400f196431bf44b7a7ecc7f076ea8af014ead3e724": {
+      "workers": {
+        "app/(dashboard)/dashboard/page": {
+          "moduleId": 624920,
+          "async": true,
+          "exportedName": "markAllUpdatesAsRead",
+          "filename": "Documents/GitHub/FinanceFull/lib/changelog/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/dashboard/page": "action-browser"
+      },
+      "exportedName": "markAllUpdatesAsRead",
+      "filename": "Documents/GitHub/FinanceFull/lib/changelog/actions.ts"
+    },
+    "6090abf6ce2025521a9864fe67dd2e42c2dd9767f4": {
+      "workers": {
+        "app/(dashboard)/dashboard/page": {
+          "moduleId": 624920,
+          "async": true,
+          "exportedName": "fetchDashboardNotifications",
+          "filename": "Documents/GitHub/FinanceFull/lib/dashboard/notifications.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/dashboard/page": "rsc"
+      },
+      "exportedName": "fetchDashboardNotifications",
+      "filename": "Documents/GitHub/FinanceFull/lib/dashboard/notifications.ts"
+    },
+    "40c16b8368d61ca75e251138d9bf4ad00ce5c3ca56": {
+      "workers": {
+        "app/(dashboard)/dashboard/page": {
+          "moduleId": 624920,
+          "async": true,
+          "exportedName": "toggleLancamentoSettlementAction",
+          "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/lancamentos/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/dashboard/page": "action-browser"
+      },
+      "exportedName": "toggleLancamentoSettlementAction",
+      "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/lancamentos/actions.ts"
+    },
+    "404f5d515bd6d8caccfa9b7870c599fb05d80ada26": {
+      "workers": {
+        "app/(dashboard)/dashboard/page": {
+          "moduleId": 624920,
+          "async": true,
+          "exportedName": "updateInvoicePaymentStatusAction",
+          "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/cartoes/[cartaoId]/fatura/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/dashboard/page": "action-browser"
+      },
+      "exportedName": "updateInvoicePaymentStatusAction",
+      "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/cartoes/[cartaoId]/fatura/actions.ts"
+    },
+    "60594f2bcc84da4c54ab123ef64957320115b9ea09": {
+      "workers": {
+        "app/(dashboard)/dashboard/page": {
+          "moduleId": 624920,
+          "async": true,
+          "exportedName": "fetchDashboardBoletos",
+          "filename": "Documents/GitHub/FinanceFull/lib/dashboard/boletos.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/dashboard/page": "rsc"
+      },
+      "exportedName": "fetchDashboardBoletos",
+      "filename": "Documents/GitHub/FinanceFull/lib/dashboard/boletos.ts"
+    }
+  },
+  "edge": {}
+}

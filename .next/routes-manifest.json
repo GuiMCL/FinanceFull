@@ -1,0 +1,254 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/:path*",
+      "headers": [
+        {
+          "key": "X-DNS-Prefetch-Control",
+          "value": "on"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000; includeSubDomains"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ],
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    }
+  ],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/api/auth/[...all]",
+      "regex": "^/api/auth/(.+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPall": "nxtPall"
+      },
+      "namedRegex": "^/api/auth/(?<nxtPall>.+?)(?:/)?$"
+    },
+    {
+      "page": "/cartoes/[cartaoId]/fatura",
+      "regex": "^/cartoes/([^/]+?)/fatura(?:/)?$",
+      "routeKeys": {
+        "nxtPcartaoId": "nxtPcartaoId"
+      },
+      "namedRegex": "^/cartoes/(?<nxtPcartaoId>[^/]+?)/fatura(?:/)?$"
+    },
+    {
+      "page": "/categorias/[categoryId]",
+      "regex": "^/categorias/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPcategoryId": "nxtPcategoryId"
+      },
+      "namedRegex": "^/categorias/(?<nxtPcategoryId>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/contas/[contaId]/extrato",
+      "regex": "^/contas/([^/]+?)/extrato(?:/)?$",
+      "routeKeys": {
+        "nxtPcontaId": "nxtPcontaId"
+      },
+      "namedRegex": "^/contas/(?<nxtPcontaId>[^/]+?)/extrato(?:/)?$"
+    },
+    {
+      "page": "/pagadores/[pagadorId]",
+      "regex": "^/pagadores/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPpagadorId": "nxtPpagadorId"
+      },
+      "namedRegex": "^/pagadores/(?<nxtPpagadorId>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/ajustes",
+      "regex": "^/ajustes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ajustes(?:/)?$"
+    },
+    {
+      "page": "/anotacoes",
+      "regex": "^/anotacoes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/anotacoes(?:/)?$"
+    },
+    {
+      "page": "/anotacoes/arquivadas",
+      "regex": "^/anotacoes/arquivadas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/anotacoes/arquivadas(?:/)?$"
+    },
+    {
+      "page": "/api/health",
+      "regex": "^/api/health(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/health(?:/)?$"
+    },
+    {
+      "page": "/apple-icon.png",
+      "regex": "^/apple\\-icon\\.png(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/apple\\-icon\\.png(?:/)?$"
+    },
+    {
+      "page": "/calendario",
+      "regex": "^/calendario(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/calendario(?:/)?$"
+    },
+    {
+      "page": "/cartoes",
+      "regex": "^/cartoes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cartoes(?:/)?$"
+    },
+    {
+      "page": "/categorias",
+      "regex": "^/categorias(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/categorias(?:/)?$"
+    },
+    {
+      "page": "/categorias/historico",
+      "regex": "^/categorias/historico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/categorias/historico(?:/)?$"
+    },
+    {
+      "page": "/contas",
+      "regex": "^/contas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contas(?:/)?$"
+    },
+    {
+      "page": "/dashboard",
+      "regex": "^/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard(?:/)?$"
+    },
+    {
+      "page": "/dashboard/analise-parcelas",
+      "regex": "^/dashboard/analise\\-parcelas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/analise\\-parcelas(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/icon0.svg",
+      "regex": "^/icon0\\.svg(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/icon0\\.svg(?:/)?$"
+    },
+    {
+      "page": "/icon1.png",
+      "regex": "^/icon1\\.png(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/icon1\\.png(?:/)?$"
+    },
+    {
+      "page": "/insights",
+      "regex": "^/insights(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/insights(?:/)?$"
+    },
+    {
+      "page": "/lancamentos",
+      "regex": "^/lancamentos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/lancamentos(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/manifest.json",
+      "regex": "^/manifest\\.json(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/manifest\\.json(?:/)?$"
+    },
+    {
+      "page": "/orcamentos",
+      "regex": "^/orcamentos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/orcamentos(?:/)?$"
+    },
+    {
+      "page": "/pagadores",
+      "regex": "^/pagadores(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pagadores(?:/)?$"
+    },
+    {
+      "page": "/signup",
+      "regex": "^/signup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/signup(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

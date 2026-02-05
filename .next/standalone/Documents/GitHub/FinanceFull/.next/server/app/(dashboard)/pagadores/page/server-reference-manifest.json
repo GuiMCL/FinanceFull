@@ -1,0 +1,95 @@
+{
+  "node": {
+    "400f196431bf44b7a7ecc7f076ea8af014ead3e724": {
+      "workers": {
+        "app/(dashboard)/pagadores/page": {
+          "moduleId": 106939,
+          "async": true,
+          "exportedName": "markAllUpdatesAsRead",
+          "filename": "Documents/GitHub/FinanceFull/lib/changelog/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/pagadores/page": "action-browser"
+      },
+      "exportedName": "markAllUpdatesAsRead",
+      "filename": "Documents/GitHub/FinanceFull/lib/changelog/actions.ts"
+    },
+    "6090abf6ce2025521a9864fe67dd2e42c2dd9767f4": {
+      "workers": {
+        "app/(dashboard)/pagadores/page": {
+          "moduleId": 106939,
+          "async": true,
+          "exportedName": "fetchDashboardNotifications",
+          "filename": "Documents/GitHub/FinanceFull/lib/dashboard/notifications.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/pagadores/page": "rsc"
+      },
+      "exportedName": "fetchDashboardNotifications",
+      "filename": "Documents/GitHub/FinanceFull/lib/dashboard/notifications.ts"
+    },
+    "4055fdbe48d5afe44a949779ac8ba98767cb9f71f9": {
+      "workers": {
+        "app/(dashboard)/pagadores/page": {
+          "moduleId": 106939,
+          "async": true,
+          "exportedName": "deletePagadorAction",
+          "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/pagadores/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/pagadores/page": "action-browser"
+      },
+      "exportedName": "deletePagadorAction",
+      "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/pagadores/actions.ts"
+    },
+    "4052bdb87b7568c34060d289cf85ec843978d80846": {
+      "workers": {
+        "app/(dashboard)/pagadores/page": {
+          "moduleId": 106939,
+          "async": true,
+          "exportedName": "joinPagadorByShareCodeAction",
+          "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/pagadores/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/pagadores/page": "action-browser"
+      },
+      "exportedName": "joinPagadorByShareCodeAction",
+      "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/pagadores/actions.ts"
+    },
+    "40bc2a39684f8860701e94e642f7773711d533ff43": {
+      "workers": {
+        "app/(dashboard)/pagadores/page": {
+          "moduleId": 106939,
+          "async": true,
+          "exportedName": "createPagadorAction",
+          "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/pagadores/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/pagadores/page": "action-browser"
+      },
+      "exportedName": "createPagadorAction",
+      "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/pagadores/actions.ts"
+    },
+    "4064355ab28e0ffda95edb7b726cf910b1bad8bb4c": {
+      "workers": {
+        "app/(dashboard)/pagadores/page": {
+          "moduleId": 106939,
+          "async": true,
+          "exportedName": "updatePagadorAction",
+          "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/pagadores/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/pagadores/page": "action-browser"
+      },
+      "exportedName": "updatePagadorAction",
+      "filename": "Documents/GitHub/FinanceFull/app/(dashboard)/pagadores/actions.ts"
+    }
+  },
+  "edge": {}
+}
