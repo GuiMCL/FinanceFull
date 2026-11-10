@@ -81,6 +81,30 @@ interface TransactionRow {
   pagadorId: string | undefined;
 }
 
+function createClientId() {
+  const webCrypto = globalThis.crypto;
+
+  if (webCrypto?.randomUUID) {
+    return webCrypto.randomUUID();
+  }
+
+  if (webCrypto?.getRandomValues) {
+    const bytes = new Uint8Array(16);
+    webCrypto.getRandomValues(bytes);
+    bytes[6] = (bytes[6] & 0x0f) | 0x40;
+    bytes[8] = (bytes[8] & 0x3f) | 0x80;
+    return Array.from(bytes, (byte) => byte.toString(16).padStart(2, "0"))
+      .join("")
+      .replace(/^(........)(....)(....)(....)(............)$/, "$1-$2-$3-$4-$5");
+  }
+
+  return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (char) => {
+    const random = Math.random() * 16 | 0;
+    const value = char === "x" ? random : (random & 0x3) | 0x8;
+    return value.toString(16);
+  });
+}
+
 export function MassAddDialog({
   open,
   onOpenChange,
@@ -108,7 +132,7 @@ export function MassAddDialog({
   // Transaction rows
   const [transactions, setTransactions] = useState<TransactionRow[]>([
     {
-      id: crypto.randomUUID(),
+      id: createClientId(),
       purchaseDate: getTodayDateString(),
       name: "",
       amount: "",
@@ -135,7 +159,7 @@ export function MassAddDialog({
     setTransactions([
       ...transactions,
       {
-        id: crypto.randomUUID(),
+        id: createClientId(),
         purchaseDate: getTodayDateString(),
         name: "",
         amount: "",
@@ -219,7 +243,7 @@ export function MassAddDialog({
       setCartaoId(undefined);
       setTransactions([
         {
-          id: crypto.randomUUID(),
+          id: createClientId(),
           purchaseDate: getTodayDateString(),
           name: "",
           amount: "",
