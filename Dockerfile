@@ -6,7 +6,7 @@
 FROM node:22-alpine AS deps
 
 # Instalar pnpm globalmente
-RUN corepack enable && corepack prepare pnpm@latest --activate
+RUN corepack enable && corepack prepare pnpm@9.15.9 --activate
 
 WORKDIR /app
 
@@ -22,7 +22,7 @@ RUN pnpm install --frozen-lockfile
 FROM node:22-alpine AS builder
 
 # Instalar pnpm globalmente
-RUN corepack enable && corepack prepare pnpm@latest --activate
+RUN corepack enable && corepack prepare pnpm@9.15.9 --activate
 
 WORKDIR /app
 
@@ -47,7 +47,7 @@ RUN pnpm build
 FROM node:22-alpine AS runner
 
 # Instalar pnpm globalmente
-RUN corepack enable && corepack prepare pnpm@latest --activate
+RUN corepack enable && corepack prepare pnpm@9.15.9 --activate
 
 WORKDIR /app
 
