@@ -245,7 +245,7 @@ Esta é a **melhor opção para desenvolvedores** que vão modificar o código.
 
    # Better Auth (gere com: openssl rand -base64 32)
    BETTER_AUTH_SECRET=seu-secret-aqui
-   BETTER_AUTH_URL=http://localhost:3000
+   BETTER_AUTH_URL=http://localhost:8785
    ```
 
 4. **Suba apenas o PostgreSQL em Docker**
@@ -278,7 +278,7 @@ Esta é a **melhor opção para desenvolvedores** que vão modificar o código.
 
 8. **Acesse a aplicação**
    ```
-   http://localhost:3000
+   http://localhost:8785
    ```
 
 #### Por que esta opção?
@@ -323,7 +323,7 @@ Ideal para quem quer apenas **usar a aplicação** sem mexer no código.
 
    # Better Auth
    BETTER_AUTH_SECRET=seu-secret-aqui
-   BETTER_AUTH_URL=http://localhost:3000
+   BETTER_AUTH_URL=http://localhost:8785
    ```
 
 3. **Suba tudo em Docker**
@@ -338,7 +338,7 @@ Ideal para quem quer apenas **usar a aplicação** sem mexer no código.
 4. **Acesse a aplicação**
 
    ```
-   http://localhost:3000
+   http://localhost:8785
    ```
 
 5. **Para parar**
@@ -368,7 +368,7 @@ Se você já tem PostgreSQL no **Supabase**, **Neon**, **Railway**, etc.
    DB_PROVIDER=remote
 
    BETTER_AUTH_SECRET=seu-secret-aqui
-   BETTER_AUTH_URL=http://localhost:3000
+   BETTER_AUTH_URL=http://localhost:8785
    ```
 
 2. **Suba apenas a aplicação**
@@ -379,7 +379,7 @@ Se você já tem PostgreSQL no **Supabase**, **Neon**, **Railway**, etc.
 
 3. **Acesse a aplicação**
    ```
-   http://localhost:3000
+   http://localhost:8785
    ```
 
 ---
@@ -569,7 +569,7 @@ No arquivo `.env`:
 
 ```env
 # Porta da aplicação (padrão: 3000)
-APP_PORT=3001
+APP_PORT=8785
 
 # Porta do banco de dados (padrão: 5432)
 DB_PORT=5433
@@ -591,7 +591,7 @@ DB_PROVIDER=local  # ou "remote"
 # === Better Auth ===
 # Gere com: openssl rand -base64 32
 BETTER_AUTH_SECRET=seu-secret-super-secreto-aqui
-BETTER_AUTH_URL=http://localhost:3000
+BETTER_AUTH_URL=http://localhost:8785
 ```
 
 ### Variáveis Opcionais
@@ -607,7 +607,7 @@ POSTGRES_DB=opensheets_db
 #### Portas (customização)
 
 ```env
-APP_PORT=3000
+APP_PORT=8785
 DB_PORT=5432
 ```
 

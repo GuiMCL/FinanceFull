@@ -88,7 +88,7 @@ services:
 
       # Outras variáveis de ambiente necessárias
       BETTER_AUTH_SECRET: ${BETTER_AUTH_SECRET}
-      BETTER_AUTH_URL: ${BETTER_AUTH_URL:-http://localhost:3000}
+      BETTER_AUTH_URL: ${BETTER_AUTH_URL:-http://localhost:8785}
 
       # Configurações de email (se usar)
       RESEND_API_KEY: ${RESEND_API_KEY:-}
