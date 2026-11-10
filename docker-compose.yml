@@ -22,7 +22,9 @@ services:
   # Serviço: PostgreSQL (Banco de dados local)
   # ============================================
   db:
-    image: postgres:18-alpine
+    # PostgreSQL 17 mantém o caminho de dados usado pelo volume abaixo.
+    # A imagem 18 mudou o PGDATA para /var/lib/postgresql/18/docker.
+    image: postgres:17-alpine
     container_name: moneywise_postgres
     restart: unless-stopped
 
