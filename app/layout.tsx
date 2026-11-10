@@ -6,6 +6,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import "./globals.css";
 
+const isVercel = process.env.VERCEL === "1";
+
 export const metadata: Metadata = {
   title: "MoneyWise",
   description: "Gestão financeira inteligente.",
@@ -29,8 +31,8 @@ export default function RootLayout({
           {children}
           <Toaster position="top-right" />
         </ThemeProvider>
-        <Analytics />
-        <SpeedInsights />
+        {isVercel && <Analytics />}
+        {isVercel && <SpeedInsights />}
       </body>
     </html>
   );
