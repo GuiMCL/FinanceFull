@@ -38,11 +38,11 @@ const STORAGE_KEY_SELECTED = "dashboard-category-history-selected";
 
 // Vibrant colors for categories
 const CHART_COLORS = [
-  "#ef4444", // red-500
-  "#3b82f6", // blue-500
-  "#10b981", // emerald-500
-  "#f59e0b", // amber-500
-  "#8b5cf6", // violet-500
+  "#c96a7e", // rose-600
+  "#ad5d73", // blush-plum
+  "#e88b9e", // rose-500
+  "#df9b62", // warm blush
+  "#a48dd2", // mauve
 ];
 
 export function CategoryHistoryWidget({ data }: CategoryHistoryWidgetProps) {
